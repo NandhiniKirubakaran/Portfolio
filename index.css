@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
     box-sizing: border-box;
 }
 html{
@@ -19,6 +19,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    font-size: 20px;
 }
 nav ul li {
     display: inline-block;
@@ -30,6 +31,7 @@ nav ul li a{
     text-decoration: none;
     font-size: medium;  
     position: relative;
+    font-size: 20px;
 }
 nav ul li a::after{
     content: '';
@@ -46,7 +48,7 @@ nav ul li a:hover::after{
 }
 .header-text{
     margin-top: 15%;
-    font-size: 20px;
+    font-size: 25px;
 }
 .header-text img{
     border-radius: 50%;
@@ -95,6 +97,7 @@ top: 360px;
 .tab-titles{
 display: flex;
 margin: 20px 0 40px;
+font-size: 20px;
 }
 .tab-links{
     margin-right: 50px;
@@ -119,6 +122,7 @@ margin: 20px 0 40px;
 .tab-contents ul li{
     list-style: none;
     margin: 30px 10px;
+    font-size: 15px;
    
 }
 .tab-contents ul li span{
@@ -200,6 +204,7 @@ padding: 10px;
     text-align: center;
     font-size: 14px;
     transition: height 0.5s;
+    color: white;
 }
 .layer h3{
     font-weight: 500;
