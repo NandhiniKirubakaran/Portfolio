@@ -65,11 +65,18 @@ font-size: 30px;
 margin-top: 20px;
 position: absolute;
 top: 360px;
-
 }
 .header-text h2 span{
     color: #ff004f;
 }
+.header-links{
+ margin-top: -100px;
+ margin-bottom: 50px;
+}
+.header-links a{
+padding: 10px;
+}
+
 /* -------------------about------------------- */
 #about{
     padding: 10px 0;
@@ -85,7 +92,7 @@ top: 360px;
     
 }
 .about-col-1 p{
-    font-size: medium;
+    font-size: 18px;
     text-align: justify;
     word-spacing: 3px;
 }
@@ -122,12 +129,13 @@ font-size: 20px;
 .tab-contents ul li{
     list-style: none;
     margin: 30px 10px;
-    font-size: 15px;
+    font-size: 16px;
    
 }
 .tab-contents ul li span{
     color: #b54769;
     font-size: 14px;
+    font-size: 19px;
 }
 .tab-contents{
     display: none;
